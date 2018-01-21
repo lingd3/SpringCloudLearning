@@ -18,7 +18,7 @@ public class HelloService {
     }
     
     public String helloError(String name) {
-    		return "hello " + name + ", sorry, error!";
+    		return "hello " + name + ", error!";
     }
 
 }
