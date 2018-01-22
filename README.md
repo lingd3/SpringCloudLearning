@@ -13,5 +13,6 @@ Spring Cloud包含了多个子项目，本人学习并实践了一部分模块�
  * [Spring Cloud Learning | 第五篇：服务容错保护(Hystrix)](http://blog.csdn.net/qwssd/article/details/79123012)
  * [Spring Cloud Learning | 第六篇：在Feign中使用断路器](http://blog.csdn.net/qwssd/article/details/79125746)
  * [Spring Cloud Learning | 第七篇：断路器监控仪表盘(Hystrix Dashboard)](http://blog.csdn.net/qwssd/article/details/79126963)
+ * [Spring Cloud Learning | 第八篇：断路器集群监控(Turbine)](http://blog.csdn.net/qwssd/article/details/79129069)
 
  参考书籍：《Spring Cloud微服务实战》
