@@ -8,8 +8,10 @@ Spring Cloud包含了多个子项目，本人学习并实践了一部分模块�
 
  * [Spring Cloud Learning | 第一篇：服务治理(Eureka)](http://blog.csdn.net/qwssd/article/details/79084253)
  * [Spring Cloud Learning | 第二篇：高可用服务注册中心](http://blog.csdn.net/qwssd/article/details/79087125)
- * [Spring Cloud Learning | 第三篇：客户端负载均衡（Ribbon)](http://blog.csdn.net/qwssd/article/details/79094279)
- * [Spring Cloud Learning | 第四篇：声明式服务调用（Fegin）](http://blog.csdn.net/qwssd/article/details/79113536)
- * [Spring Cloud Learning | 第五篇：服务容错保护（Hystrix）](http://blog.csdn.net/qwssd/article/details/79123012)
+ * [Spring Cloud Learning | 第三篇：客户端负载均衡(Ribbon)](http://blog.csdn.net/qwssd/article/details/79094279)
+ * [Spring Cloud Learning | 第四篇：声明式服务调用(Fegin)](http://blog.csdn.net/qwssd/article/details/79113536)
+ * [Spring Cloud Learning | 第五篇：服务容错保护(Hystrix)](http://blog.csdn.net/qwssd/article/details/79123012)
+ * [Spring Cloud Learning | 第六篇：在Feign中使用断路器](http://blog.csdn.net/qwssd/article/details/79125746)
+ * [Spring Cloud Learning | 第七篇：断路器监控仪表盘(Hystrix Dashboard)](http://blog.csdn.net/qwssd/article/details/79126963)
 
  参考书籍：《Spring Cloud微服务实战》
