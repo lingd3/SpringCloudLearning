@@ -17,5 +17,6 @@ Spring Cloud包含了多个子项目，本人学习并实践了一部分模块�
  * [Spring Cloud Learning | 第九篇：API网关服务(Zuul)](http://blog.csdn.net/qwssd/article/details/79227967)
  * [Spring Cloud Learning | 第十篇：分布式配置中心(Config)](http://blog.csdn.net/qwssd/article/details/79233329)
  * [Spring Cloud Learning | 第十一篇：高可用的分布式配置中心](http://blog.csdn.net/qwssd/article/details/79234118)
+ * [Spring Cloud Learning | 第十二篇：Docker部署Spring Cloud项目](http://blog.csdn.net/qwssd/article/details/79259786)
 
  参考书籍：《Spring Cloud微服务实战》
