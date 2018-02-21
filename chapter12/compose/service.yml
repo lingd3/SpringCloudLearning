@@ -1,0 +1,30 @@
+version: '3'
+services:
+
+  service-ribbon:
+    image: dan/service-ribbon
+    ports:
+      - "8764:8764"
+    networks:  
+      - webnet
+
+  service-feign:
+    image: dan/service-feign
+    ports:
+      - "8765:8765"
+    networks:  
+      - webnet
+
+  service-zuul:
+    image: dan/service-zuul
+    ports:
+      - "8769:8769"
+    networks:  
+      - webnet
+
+networks:  
+  webnet: 
+
+
+
+

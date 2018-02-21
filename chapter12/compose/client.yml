@@ -1,0 +1,17 @@
+version: '3'
+services:
+  hello-service:
+    image: dan/eureka-client
+    deploy:  
+      replicas: 3
+      restart_policy:  
+        condition: on-failure  
+    ports:
+      - "8763:8763"
+    networks:  
+      - webnet
+
+networks:  
+  webnet: 
+
+
