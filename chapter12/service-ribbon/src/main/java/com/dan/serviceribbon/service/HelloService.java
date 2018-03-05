@@ -12,7 +12,7 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-//    @HystrixCommand(fallbackMethod = "helloError")
+    @HystrixCommand(fallbackMethod = "helloError")
     public String helloService(String name) {
         return restTemplate.getForObject("http://HELLO-SERVICE/hello?name="+name, String.class);
     }

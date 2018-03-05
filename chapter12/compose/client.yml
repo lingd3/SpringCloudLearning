@@ -2,8 +2,12 @@ version: '3'
 services:
   hello-service:
     image: dan/eureka-client
-    deploy:  
+    deploy:
       replicas: 3
+      resources:
+        limits:
+          cpus: "0.01"  
+          memory: 500M 
       restart_policy:  
         condition: on-failure  
     ports:
