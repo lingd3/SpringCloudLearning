@@ -1,0 +1,25 @@
+version: '3'
+services:
+  eureka-server:
+    image: dan/eureka-server
+    ports:
+      - "8761:8761"
+    networks:  
+      - webnet
+
+  hello-service:
+    image: dan/eureka-client
+    ports:
+      - 8763
+    networks:  
+      - webnet
+
+  feign-service:
+    image: dan/service-feign
+    ports:
+      - "8765:8765"
+    networks:  
+      - webnet
+
+networks:  
+  webnet: 

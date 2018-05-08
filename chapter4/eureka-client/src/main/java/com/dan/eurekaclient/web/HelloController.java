@@ -23,7 +23,13 @@ public class HelloController {
 	public String index(@RequestParam String name) {
 		ServiceInstance instance = client.getLocalServiceInstance();
 		logger.info("/hello, host:" + instance.getHost() + ", port:" + instance.getPort() + ", service_id:" + instance.getServiceId());		
+		test();
 		return "Hello " + name + ". I am from port:" + instance.getPort();
+	}
+	
+	@RequestMapping(value = "/he", method = RequestMethod.GET)
+	public void test() {
+		logger.info("heheheheheheheheh------------test");
 	}
 	
 }
